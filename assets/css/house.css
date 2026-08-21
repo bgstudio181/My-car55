@@ -1,0 +1,128 @@
+#house{
+  background: rgb(255,255,255,0.5);
+}
+
+.hero{
+  position: relative;
+  
+  height: 200px;
+  
+}
+
+.hero img{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  
+}
+.sh{
+  
+  border-radius:20px;
+  border-top-left-radius: 0px;
+  margin-left: 50px;
+  margin-top: 90px;
+  position: absolute;
+  background:white;
+  height: 50%;
+  width: 75%;
+  box-shadow:2px 2px 8px black ;
+}
+.sh2{
+  border-radius:20px;
+  margin-left: 50px;
+  margin-top: 40px;
+  position: absolute;
+  background:white;
+  height: 50%;
+  width: 40%;
+  box-shadow:2px 2px 8px black ;
+  
+}
+.type{
+  border-radius: 20px;
+  margin: 20px ;
+  margin-top: 5px;
+  height: 40%;
+  width: 25%;
+  background: rgba(255,204,0,0.5);
+  border: none;
+}
+.shop{
+  height: 100%;
+  background:rgba(255,204,0,0.5);
+}
+.titre{
+  overflow: ;
+  display: flex;
+  background:;
+}
+.chang{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 8px;
+  background: ;
+}
+span{
+  padding-left: ;
+  place-content: end;
+  place-self: center;
+  color: ;
+  direction: ltr;
+}
+.model{
+  align-content: center;
+  overflow: hidden;
+  background:;
+  height: 125px;
+}
+.scrol{
+  align-items: center;
+  align-content: center;
+  background:;
+}
+.scrol button{
+  height: 100px;
+  width: 200px;
+  border-radius: 20px;
+}
+.pope{
+  align-content: center;
+  overflow: hidden;
+  background:;
+  height: 100px;
+}
+.scrol{
+  align-items: center;
+  align-content: center;
+  background:;
+.pope .scrol button{
+  height: 100px;
+  width: 200px;
+  border-radius: 20px;
+}
+.mark{
+  height: 100px;
+}
+
+  
+.good{
+  align-content: center;
+  overflow: hidden;
+  background:;
+  height: 200px;
+}
+.scrol{
+  align-items: center;
+  align-content: center;
+  background:;
+}
+.good .scrol button{
+  position: relative;
+  height: 145px;
+  width: 350px;
+  border-radius: 20px;
+}
+.good .scrol button i{
+  position: absolute;
+}

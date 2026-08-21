@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+main{
+  display: flex;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background: rgb(255,204,0);
+  height: 100vh;
+  width: 100px;
+  text-align: center;
+}
+.logo{
+  place-self: center;
+  width: 100px;
+}
+.left div{
+  align-self: center;
+  height: 5px;
+  width: 256px;
+  background: black;
+  
+}
+.left a{
+  text-decoration: none;
+  color: black ;
+}
+.left i{
+  font-size: 8px;
+}
+.left span{
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 8px;
+}
+.view{
+  height: ;
+  background: none;
+  width: 100%;
+}
+.pub{
+  height: 90px;
+  place-self:center;
+  background:gray;
+  max-width:100% ;
+  min-width:100%;
+}
