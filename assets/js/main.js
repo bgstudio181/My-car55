@@ -20,16 +20,18 @@ let right2=document.querySelector("#right2")
 let scrol2=document.querySelector(".scrol1")
 let scrol2_position=0
 left2.addEventListener("click" ,()=>{
-  if (scrol2_position!=1000){
-    scrol2_position+=100
-    scrol2.style.transform += "translateX(-100px)"
-  }
-})
-
-right2.addEventListener("click" ,()=>{
   if (scrol2_position!=0){
     scrol2_position-=100
     scrol2.style.transform += "translateX(100px)"
+    
+}
+}
+)
+
+right2.addEventListener("click" ,()=>{
+  if (scrol2_position!=1300){
+    scrol2_position+=100
+    scrol2.style.transform += "translateX(-100px)"
   }
 })
 //*5
