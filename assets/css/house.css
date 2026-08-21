@@ -92,17 +92,20 @@ span{
   background:;
   height: 100px;
 }
-.scrol{
+.scrol1{
   align-items: center;
   align-content: center;
   background:;
-.pope .scrol button{
-  height: 100px;
-  width: 200px;
-  border-radius: 20px;
-}
 .mark{
   height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  background: none;
+}
+.mark img{
+  background:;
+  width: 100px;
+  align-self: center;
 }
 
   
@@ -115,11 +118,11 @@ span{
 .scrol{
   align-items: center;
   align-content: center;
-  background:;
+  background:white;
 }
 .good .scrol button{
   position: relative;
-  height: 145px;
+  height: 250px;
   width: 350px;
   border-radius: 20px;
 }
