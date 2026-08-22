@@ -52,7 +52,7 @@ main{
   width: 100%;
 }
 .pub{
-  height: 60px;
+  height: 120px;
   place-self:center;
   background:gray;
   max-width:100% ;
