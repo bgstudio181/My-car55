@@ -88,10 +88,12 @@
   align-content:space-around;
 }
 .chang{
+  color:white;
+  background:black; 
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  font-size: 8px;
+  font-size: 16px;
 }
 .t{
   margin-right: 2px;
@@ -149,11 +151,11 @@
   
 .good{
   overflow: hidden;
-  height: 200px;
+  height: 400px;
   width: 100%;
 } 
 .scrol2{
-  width: 2000px;
+  width: 4000px;
   display: flex;
   gap: 20px; 
   height: 100%;
