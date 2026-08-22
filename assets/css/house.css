@@ -2,7 +2,9 @@
 #house{
   background: rgb(255,204,0,0.5);
 }
-
+body{
+  background:#D8D8D8;
+}
 .hero{
   position: relative;
   
@@ -11,6 +13,7 @@
 }
 
 .hero img{
+  background:white;
   position: absolute;
   width: 100%;
   height: 300px;
@@ -150,6 +153,7 @@
 
   
 .good{
+  
   overflow: hidden;
   height: 400px;
   width: 100%;
