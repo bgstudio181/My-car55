@@ -31,13 +31,14 @@
   box-shadow:2px 2px 8px black ;
 }
 .filtre1{
-  
+  font-family:'Cairo',sans-serif !important ;
   align-content:center;
   text-align:center;
   width: 20%;
   height: 100%;
 }
 .filtre1 select{
+  font-family:'Cairo',sans-serif !important ;
   color: rgb(255,204,0);
   background:none;
   direction: ltr;
@@ -47,6 +48,7 @@
   height: 35%;
 }
 .filtre1 button{
+  font-family:'Cairo',sans-serif !important ;
   background:rgba(255,204,0);
   border-radius: 10px;
   width: 90%;
@@ -94,12 +96,12 @@
 .t{
   margin-right: 2px;
   width: 100%;
-  font-family:'Changa',sans-serif !important ;
+  font-family:'Cairo',sans-serif !important ;
   direction: rtl;
   align-items:right;
 }
 .t div{
-  width: 20%;
+  width: 10%;
   height: 5px;
   background:rgb(255,204,0);
 }
@@ -151,6 +153,7 @@
   width: 100%;
 } 
 .scrol2{
+  width: 2000px;
   display: flex;
   gap: 20px; 
   height: 100%;
@@ -184,6 +187,7 @@
   position: absolute;
 }
 .price{
+  font-family:'Cairo',sans-serif !important ;
   font-family: fast;
   direction: rtl;
   width: 100%;
@@ -191,6 +195,7 @@
   position: absolute;
 }
 .dat{
+  font-size:12px;
   direction: rtl;
   width: 100%;
   margin-top:125px ;
