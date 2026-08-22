@@ -1,6 +1,7 @@
 let truck=document.querySelector("#truck")
 let car=document.querySelector("#car")
 let bicycle=document.querySelector("#bicycle")
+car.style.background="rgba(255,204,0,0.5)"
 truck.addEventListener("click",()=>{
   truck.style.background="rgba(255,204,0,0.5)"
   car.style.background="none"
