@@ -141,19 +141,34 @@ body{
 .model{
   align-content: center;
   overflow: hidden;
-  height: 110px;
+  height: 130px;
 }
 .scrol{
+  height: 100%;
+  display: flex;
+  gap: 20px;
   width: 2500px;
   align-items: center;
   align-content: center;
 }
-.scrol button{
+.scrol div{
+  position: relative;
   background:none;
   border:gray 1px solid;
-  height: 100px;
-  width: 200px;
+  height: 120px;
+  width: 150px;
   border-radius: 20px;
+}
+.scrol div img{
+  position:absolute ;
+}
+.scrol div p{
+  margin-top: 90px;
+  font-size: 16px;
+  color:;
+  font-family:'Cairo',sans-serif !important ;
+  position: absolute;
+  margin-left: 5px;
 }
 .pope{
   align-content: center;
