@@ -16,6 +16,15 @@ main{
   width: 100px;
   text-align: center;
 }
+.left section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background:white;
+  height: 70vh;
+  width: 80%;
+  margin: auto;
+}
 .logo{
   place-self: center;
   width: 100px;
@@ -36,10 +45,9 @@ main{
 }
 .left span{
   font-family: system-ui, -apple-system, sans-serif;
-  font-size: 8px;
+  font-size: 20px;
 }
 .view{
-  height: ;
   background: none;
   width: 100%;
 }

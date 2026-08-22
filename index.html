@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+
   <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/left.css">
   <link rel="stylesheet" href="assets/css/house.css">
@@ -10,24 +13,71 @@
   <main>
     <div class="left" >
       <img src="assets/img/logo/logo.png" class="logo">
-      <a id="house" href="index.html"><i class="bi bi-house-door" ></i> <span>house</span></a>
-      <a href="profile.html"><i class="bi bi-person"></i> <span>profile</span> </a>
-      <a><i class="bi bi-heart"></i> <span>favourite</span> </a>
-      <div ></div>
-      <a><i class="bi bi-plus-circle"></i> <span>add</span> </a>
-      <a href="chat.html"><i class="bi bi-chat-dots"></i> <span>chat</span> </a>
-      <a><i class="bi bi-graph-up-arrow"></i> <span>prices</span> </a>
+      <section>     
+        <a id="house" href="index.html"><i class="bi bi-house-door" ></i> <span>house</span></a>
+        <a href="profile.html"><i class="bi bi-person"></i> <span>profile</span> </a>
+        <a href="favourite.html"><i class="bi bi-heart"></i> <span>favourite</span> </a>
+        <div ></div>
+        <a><i class="bi bi-plus-circle"></i> <span>add</span> </a>
+        <a href="chat.html"><i class="bi bi-chat-dots"></i> <span>chat</span> </a>
+        <a><i class="bi bi-graph-up-arrow"></i> <span>prices</span> </a>
+      </section>
+      <a id="exit" href=""><i class="bi bi-box-arrow-right" ></i> <br> <span>exit</span></a>
     </div>
     <div class="view">
       <div class="pub"></div>
       <div class="hero">
         <img src="assets/img/hero/hero.png">
         <div  class="sh2">
-          <button type="" class="type" ></button>
-          <button type="" class="type" ></button>
-          <button type="" class="type" ></button>
+          <button  class="type" id="truck"><i class="bi bi-truck"></i></button>
+          <button  class="type" id="car"><i class="bi bi-car-front"></i></button>
+          <button  class="type" id="bicycle"><i class="bi bi-bicycle"></i></button>
         </div>
         <div class="sh">
+          <div class="filtre1">
+            <button>ابحث</button>
+          </div>
+          <div class="filtre1">
+            <h3>الولاية</h3>
+            <select>              
+              <option>الكل</option>
+              <option>العلمة</option>
+              <option>البرج</option>
+              <option>سطيف</option>
+              <option>جيجل</option>    
+              <option>قسنطينة</option>
+              
+            </select>
+          </div>
+          <div class="filtre1">
+            <h3>السعر</h3>
+            <select>
+              <option>الكل</option>
+              <option>من 100الى 300</option>
+              <option>من 300 الى 450</option>
+              <option>من 450الى 600</option>
+              
+            </select>
+          </div>
+          <div class="filtre1">
+            <h3>الحالة</h3>
+            <select>
+              <option>الكل</option>
+              <option>جديدة</option>
+              <option>مجددة</option>
+              <option>مستعملة لكن في حالة جيدة</option>
+              <option>مستعملة</option>
+            </select>
+          </div>
+          <div class="filtre1">
+            <h3>شوف نتا</h3>
+            <select>
+              <option>الكل</option>
+              <option></option>
+            </select>
+          </div>
+
+          
         </div>
         
       </div>
@@ -35,24 +85,27 @@
         <div class="titre">
           <button class="chang" id="left1"><</button>
           <button class="chang" id="right1">></button>
-          <span class="t">انواع المركبات</span>
+          <span class="t">انواع السيارات<div></div></span>
         </div>
         <div class="model">
           <div class="scrol">
             <button ><img src="assets/img/car/min.png"></button>
+            <button ><img src="assets/img/car/2.png"></button>
+            <button ><img src="assets/img/car/3.png"></button>
+            <button ><img src="assets/img/car/4.png"></button>
+            <button ><img src="assets/img/car/5.png"></button>
+            <button ><img src="assets/img/car/6.png"></button>
+            <button ><img src="assets/img/car/7.png"></button>
+            <button ><img src="assets/img/car/8.png"></button>
+            <button ><img src="assets/img/car/9.png"></button>
             <button ><img src="assets/img/car/min.png"></button>
-            <button ><img src="assets/img/car/min.png"></button>
-            <button ><img src="assets/img/car/min.png"></button>
-            <button ><img src="assets/img/car/min.png"></button>
-            <button ><img src="assets/img/car/min.png"></button>
-            <button ><img src="assets/img/car/min.png"></button>
-            
+            <button ><img src="assets/img/car/min.png"></button>        
           </div>
         </div>
         <div class="titre">
           <button class="chang" id="left2"><</button>
           <button class="chang" id="right2">></button>
-          <span class="t">الشعارات</span>
+          <span class="t">الشعارات الرائدة<div></div></span>
         </div>
         <div class="pope">
           <div class="scrol1">
@@ -84,27 +137,50 @@
             <button class="mark"><img src="assets/img/icon/BAIC.png"></button>
             <button class="mark"><img src="assets/img/icon/AUDI.png"></button>
             <button class="mark"><img src="assets/img/icon/WULING.png"></button>
-      
+            <button class="mark"><img src="assets/img/icon/SEAT.png"></button>
 
             
           </div>
         </div>
         <div class="titre">
-          <button class="chang"><</button>
-          <button class="chang">></button>
-          <span class="t">عروض جيدة</span>
+          <button class="chang" id="left3"><</button>
+          <button class="chang" id="right3">></button>
+          <span class="t">انواع السيارات<div></div></span>
         </div>
         <div class="good">
-          <div class="scrol">
-            <button>
-              <img src=""> 
-              <i class="bi bi-heart"></i>
-            </button>
+          <div class="scrol2">
+            <div class="offer">
+              <img src="assets/img/Good/1.jpg"> 
+              <i class="bi bi-heart" id="heart"></i>
+              <i class="bi bi-phone" id="phone"></i>
+              <h3 class="name">BMW05</h3>
+              <h3 class="price">10000دج</h3>
+              <h3 class="dat">2018.disle.1200km</h3>
+            </div>
+            <div class="offer">
+              <img src="assets/img/Good/2.jpg">
+              <i class="bi bi-heart" id="heart"></i>
+              <h3 class="name">BMW05</h3>
+            </div>
+            <div class="offer">
+              <img src="assets/img/Good/3.jpg">
+              <i class="bi bi-heart" id="heart"></i>
+            </div>
+            <div class="offer">
+              <img src="assets/img/Good/4.jpg">
+              <i class="bi bi-heart" id="heart"></i>
+</div>
+            <div class="offer">
+              <img src="assets/img/Good/5.jpg">
+              <i class="bi bi-heart" id="heart"></i>
+</div>
+
+            
           </div>
         </div>
       </div>
       
     </div>
   </main>
-  <script src="assets/js/main.js" ></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
